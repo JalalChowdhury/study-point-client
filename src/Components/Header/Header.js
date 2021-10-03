@@ -1,9 +1,26 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import "./Header.css";
+
 
 const Header = () => {
+
+
     return (
         <div>
-            <h1>This is Header Page</h1>
+
+            <nav className="nav-design py-5">
+                <NavLink to="/home">Home</NavLink>
+                <NavLink className="mx-5" to="/about">About</NavLink>
+                <NavLink className="mx-5" to="/courses">Courses</NavLink>
+                <NavLink to="/events">Events</NavLink>
+            </nav>
+            <br />
+
+            
+
+           
+
         </div>
     );
 };
