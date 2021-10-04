@@ -1,7 +1,8 @@
-// import Button from '@restart/ui/esm/Button';
+import { faFacebook,  faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+// import { faCoffee, faEnvelope, faMapMarked, faMapMarkedAlt, faMapMarkerAlt, faMarker, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import { InputGroup, FormControl, Form } from 'react-bootstrap';
+
 import './Footer.css';
 
 const Footer = () => {
@@ -14,10 +15,10 @@ const Footer = () => {
                         <p className="text-center mr-2"><small>No spam message from us, only give you latest offer which is best for you and your business</small></p>
                         <div class="input-group mb-3">
                             <div className="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <span class="input-group-text p-3" id="basic-addon1">@</span>
                             </div>
-                            <input type="text" className="form-control me-3" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1"/>
-                            <button>Subscribe</button>
+                            <input type="text" className="form-control me-1" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1"/>
+                            <button className="add-btn">Subscribe</button>
                         </div>
                     </div>
                 </div>
@@ -25,8 +26,8 @@ const Footer = () => {
                     <div className="col-md-2 ml-1">
                         <h3 className=""> Contact US</h3>
                         <p> <small>  134/4 NY, Sylhet, Bangladesh </small> </p>
-                        <p> <small>  info@training-coaching.com </small> </p>
-                        <p> <small>  (+88) 017 33 914455 </small> </p>
+                        <p> <small>  info@study-point.com </small> </p>
+                        <p> <small>  (+88) 01646- 705394 </small> </p>
 
                     </div>
 
@@ -44,7 +45,7 @@ const Footer = () => {
                         <h3 className="">Recent Events</h3>
                         <p><small>Web Design Bootcamp</small></p>
                         <p><small>Free 15 Days Spoken Camp</small></p>
-                        <p><small>Festival to all Training-coaching of students</small></p>
+                        <p><small>Festival to all STUDY POINT of students</small></p>
 
                     </div>
 
@@ -58,7 +59,14 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <p className="text-center text-white mt-2 ">Copyright ©  Training-Coaching. All rights reserved. </p>
+                <div className="social-links text-center">
+                    <a target="_blank" rel="noopener noreferrer" href="//www.facebook.com" > <FontAwesomeIcon className='text-white social-icon' icon={faFacebook} /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="//www.twitter.com" > <FontAwesomeIcon className='text-white social-icon' icon={faTwitter} /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="//www.instragram.com" > <FontAwesomeIcon className='text-white social-icon' icon={faInstagram} /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="//www.youtube.com" > <FontAwesomeIcon className='text-white social-icon' icon={faYoutube} /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="//www.linkedin.com" > <FontAwesomeIcon className='text-white social-icon' icon={faLinkedin} /></a>
+                </div>
+                <p className="text-center text-white mt-2 ">Copyright ©  STUDY POINT. All rights reserved. </p>
             </section>
         </div>
     );

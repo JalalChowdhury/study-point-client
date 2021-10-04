@@ -6,13 +6,24 @@
 
 .card img{
     height:250px;
+    width: 250px;
    
     margin: auto;
     padding: 10px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     
    
 }
 .card-body{
     text-align: center;
+}
+
+.social-icon{
+    font-size: 25px;
+    margin: 5px;
+    margin-top: -5px;
+}.social-links a{
+    color: grey;
+    margin-left: 8px;
+    font-size: 30px;
 }

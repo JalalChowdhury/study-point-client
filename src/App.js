@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
+import Successful from './Components/Successful/Successful';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
                 </Route>
                 <Route path="/contact">
                     <ContactUs></ContactUs>
+                </Route>
+                <Route path="/successful">
+                    <Successful></Successful>
                 </Route>
                 <Route path="*">
                     <NotFound></NotFound>

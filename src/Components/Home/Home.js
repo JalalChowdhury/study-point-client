@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import HomeCarousel from '../HomeCarousel/HomeCarousel';
 import HomeServiceDetail from '../HomeServiceDetail/HomeServiceDetail';
 
 const Home = () => {
@@ -10,19 +11,17 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
-
+    const topServices = services.slice(0,4);
     return (
         <div>
-            <h1>This HHHHHHommme Page</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ex repellendus dolorum sed nostrum quae assumenda
-                et itaque excepturi possimus, recusandae a, dicta corporis praesentium ut iure ab nulla dolore.
-            </p>
+            
+            <HomeCarousel></HomeCarousel>
             <div>
-                <h2>Top services</h2>
-                <div className="row row-cols-1 row-cols-md-2 g-4 px-5">
+                <h2 className="ms-5 mt-5 mb-3">Top Services</h2>
+                <div className="row row-cols-1 row-cols-md-2 g-4 px-5 mx-auto">
                     {
                         // console.log(courses);
-                        services.map(service =>
+                        topServices.map(service =>
 
                             <HomeServiceDetail
                                 key={service.id}

@@ -28,7 +28,7 @@ const ContactUs = () => {
                         <Form.Control as="textarea" type="text" placeholder="Enter your message" />
                     </Form.Group>
                     <div className="d-flex justify-content-center">
-                        <Button className='' variant="info" type="submit">Submit</Button>
+                        <Button className='add-btn my-3' variant="info" type="submit">Submit</Button>
                     </div>
 
                 </Form>

@@ -1,3 +1,17 @@
 .nav-design{
     background-color: aquamarine;
 }
+.single-link{
+    text-decoration: none;
+    color:white;
+    margin-left: 70px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.single-link:hover{
+    text-decoration: none;
+    color: aqua;
+    display: inline-block;
+    transform: translate(5px);
+}
+
