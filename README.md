@@ -1,4 +1,4 @@
-<h1>Training-app</h1>
+<h1>STUDY POINT</h1>
 
 STUDY POINT is a Coaching Learning Platform.
 
