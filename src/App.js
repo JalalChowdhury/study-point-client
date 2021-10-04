@@ -2,7 +2,8 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
-import Courses from './Components/Courses/Courses';
+import CoachingServices from './Components/CoachingServices/CoachingServices';
+import ContactUs from './Components/ContactUs/ContactUs';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -21,11 +22,14 @@ function App() {
                 <Route path="/home">
                     <Home></Home>
                 </Route>
-                <Route path="/courses">
-                  <Courses></Courses>
+                <Route path="/services">
+                  <CoachingServices></CoachingServices>
                 </Route>
                 <Route path="/about">
                     <About></About>
+                </Route>
+                <Route path="/contact">
+                    <ContactUs></ContactUs>
                 </Route>
                 <Route path="*">
                     <NotFound></NotFound>

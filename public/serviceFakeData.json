@@ -1,0 +1,69 @@
+﻿[
+    {
+        "id": 1,
+        "service": "HSC Masterclass",
+        "image": "https://i.ibb.co/CsbJ4tC/hsc.jpg",
+        "price": 10000,
+        "duration": 8,
+        "rating": 4
+    },
+    {
+        "id": 2,
+        "service": "Spoken English",
+        "image": "https://i.ibb.co/K2534mb/english.png",
+        "price": 2000,
+        "duration": 2,
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "service": "Web Design Training",
+        "image": "https://i.ibb.co/6yD4nZP/web.jpg",
+        "price": 7000,
+        "duration": 6,
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "service": "IELTS Masterclass",
+        "image": "https://i.ibb.co/3s7bqpF/ielts.jpg",
+        "price": 5000,
+        "duration": 5,
+        "rating": 4
+    },
+    {
+        "id": 5,
+        "service": "SSC Masterclass",
+        "image": "https://i.ibb.co/GMQCmcW/ssc.jpg",
+        "price": 9000,
+        "duration": 8,
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "service": "JSC Masterclass",
+        "image": "https://i.ibb.co/jrrrWCY/jsc.png",
+        "price": 8000,
+        "duration": 8,
+        "rating": 5
+    },
+    {
+        "id": 7,
+        "service": "Computer Basic Training",
+        "image": "https://i.ibb.co/DrXsz4v/computer.png",
+        "price": 3000,
+        "duration": 3,
+        "rating": 5
+    },
+   
+    {
+        "id": 8,
+        "service": "Graphic Design Training",
+        "image": "https://i.ibb.co/C6pB0F0/graphic.jpg",
+        "price": 3500,
+        "duration": 4,
+        "rating": 5
+    }
+    
+    
+]

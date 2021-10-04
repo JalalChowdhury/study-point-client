@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import HomeCourseDetail from '../HomeCourseDetail/HomeCourseDetail';
+import HomeServiceDetail from '../HomeServiceDetail/HomeServiceDetail';
 
 const Home = () => {
 
-    const [topCourses, setTopCourses] = useState([]);
+    const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('./fakeHome.JSON')
+        fetch('./serviceFakeData.json')
             .then(res => res.json())
-            .then(data => setTopCourses(data));
+            .then(data => setServices(data));
     }, [])
 
     return (
@@ -18,16 +18,17 @@ const Home = () => {
                 et itaque excepturi possimus, recusandae a, dicta corporis praesentium ut iure ab nulla dolore.
             </p>
             <div>
-                <div className="row row-cols-1 row-cols-md-2 g-4">
+                <h2>Top services</h2>
+                <div className="row row-cols-1 row-cols-md-2 g-4 px-5">
                     {
                         // console.log(courses);
-                        topCourses.map(course =>
+                        services.map(service =>
 
-                            <HomeCourseDetail
-                                key={course.id}
-                                course={course}
+                            <HomeServiceDetail
+                                key={service.id}
+                                service={service}
                             >
-                            </HomeCourseDetail>
+                            </HomeServiceDetail>
                         )
                     }
 

@@ -1,0 +1,20 @@
+.card-design{
+    border: none;
+    border-radius: 15px ;
+    display: flex;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+}
+
+.card-img{
+    height:250px;
+    width: 300px;
+   
+    margin: auto;
+    padding: 10px;
+    border-radius: 40px;
+    
+   
+}
+.card-body{
+    padding-left: 2px;
+}
