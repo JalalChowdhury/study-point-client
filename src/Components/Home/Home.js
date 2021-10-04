@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import HomeCarousel from '../HomeCarousel/HomeCarousel';
 import HomeServiceDetail from '../HomeServiceDetail/HomeServiceDetail';
+import './Home.css';
 
 const Home = () => {
 
@@ -17,7 +18,7 @@ const Home = () => {
             
             <HomeCarousel></HomeCarousel>
             <div>
-                <h2 className="ms-5 mt-5 mb-3">Top Services</h2>
+                <h2 className="ms-5 mt-5 mb-3">Top <span className="salmon-color">Services</span></h2>
                 <div className="row row-cols-1 row-cols-md-2 g-4 px-5 mx-auto">
                     {
                         // console.log(courses);
