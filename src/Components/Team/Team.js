@@ -17,10 +17,11 @@ const Team = (props) => {
                     <h6> {designation} </h6>
                     <p><i class="fas fa-envelope-square"></i> {email}</p>
                     <div className="social-links text-center">
-                        <a href="https://www.facebook.com/" target="_blank" ><i class="fab fa-facebook"></i></a>
-                        <a  target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-twitter-square"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        
                     </div>
 
 
