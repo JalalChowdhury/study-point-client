@@ -1,14 +1,14 @@
 ﻿[
     {
         "id": 1,
-        "name": "Mr Maurice Peck",
+        "name": "Mr Jalal Chowdhury",
         "image": "https://randomuser.me/api/portraits/men/78.jpg",
         "designation": "CEO",
         "email": "maurice.peck@example.com"
     },
     {
         "id": 2,
-        "name": "Mr Herman Mitchelle",
+        "name": "Mr Habib Hasan",
         "image": "https://randomuser.me/api/portraits/men/97.jpg",
         "designation": "Director",
         "email": "herman.mitchelle@example.com"
@@ -68,5 +68,12 @@
         "image": "https://randomuser.me/api/portraits/men/98.jpg",
         "designation": "Spoken English Instructor",
         "email": "mario.henderson@example.com"
+    },
+    {
+        "id": 11,
+        "name": "Mr Samuel Fernandez",
+        "image": "https://randomuser.me/api/portraits/men/95.jpg",
+        "designation": "Web Design Instructor",
+        "email": "samuel.fernandez@example.com"
     }
 ]

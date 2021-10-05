@@ -1,12 +1,13 @@
-.card{
+.cart{
     border: none;
     border-radius: 25px ;
+    background-color: white;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
 }
 
-.card-img{
-    height:250px;
-    /* width: 350px; */
+.service-img{
+    min-height:300px;
+    /* width: 350px;  */
     margin: auto;
     padding: 10px;
     border-radius: 40px;

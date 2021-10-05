@@ -1,7 +1,8 @@
 .successful-img{
-    max-width: 500px;
-    min-height: 30%;
+    width: 500px;
+    height: 400px;
     margin: auto;
+    text-align: center;
 }
 .successful-header{
     margin: 30px;

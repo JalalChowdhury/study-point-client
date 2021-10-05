@@ -1,4 +1,14 @@
 .form-container{
-    margin: 0 auto;
+    margin:  auto;
     width: 75%;
+}
+#map-design {
+    height: 650px;
+}
+
+#map-design iframe {
+    border:7px solid rgb(187, 183, 183);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.356);
+    margin-top: 10px;
+    color: none;
 }

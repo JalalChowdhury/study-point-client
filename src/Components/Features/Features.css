@@ -1,0 +1,34 @@
+.feature-design{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+.feature-header{
+    text-align: center;
+    margin: 20px;
+}
+.feautre-div{
+    height: 250px;
+    width: 350px;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9ff;
+}
+.feautre-div:hover{
+    transform: scale(110%);
+}
+.feature-img{
+    height: 80px;
+    width: 100px;
+    padding: 10px;
+}
+.salmon-color{
+    color: salmon;
+}

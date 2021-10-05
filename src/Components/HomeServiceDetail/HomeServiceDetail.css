@@ -1,17 +1,18 @@
 .card-design{
     border: none;
     height: 250px;
-    /* width: 600px; */
+    width: 600px;
+    background-color: white;
     border-radius: 15px ;
     display: flex;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
 }
 
 
-.card-img{
+.card-image{
     height:250px;
     max-width: 300px;
-   
+    border-radius: 10px;
     margin: auto;
     padding: 10px;
     border-radius: 20px;

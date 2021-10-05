@@ -15,11 +15,11 @@ const Service = (props) => {
     }
     const addCartIcon = <FontAwesomeIcon icon={faShoppingCart} />
     return (
-        <div className="course col">
-            <div className="card h-100">
+        <div className="col">
+            <div className="cart h-100">
 
 
-                <img className="card-img img-fluid" src={image} alt="" />
+                <img className="service-img img-fluid" src={image} alt="" />
 
                 <div className="card-body">
                     <h2 className="salmon-color">{service}</h2>

@@ -1,37 +1,17 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Form } from 'react-bootstrap';
+import Iframe from '@trendmicro/react-iframe';
 import './ContactUs.css';
+import FormPart from '../FormPart/FormPart';
 
 
 const ContactUs = () => {
     return (
         <div>
-            <h2 className="text-center mt-5">Get in <span className="text-info">Touch</span></h2>
-            <div className="form-container">
-                <Form>
-                    <Form.Group controlId="formBasicEmail">
-                        <Form.Label>Name</Form.Label>
-                        <Form.Control type="text" placeholder="Enter name" />
-                    </Form.Group>
-
-                    <Form.Group controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
-                        <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                    </Form.Text>
-                    </Form.Group>
-
-                    <Form.Group controlId="formBasicEmail">
-                        <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" type="text" placeholder="Enter your message" />
-                    </Form.Group>
-                    <div className="d-flex justify-content-center">
-                        <Button className='add-btn my-3' variant="info" type="submit">Submit</Button>
-                    </div>
-
-                </Form>
+            <FormPart></FormPart>
+            <div id="map-design">
+                <div class="container">
+                    <Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14475.232313030407!2d91.85235586977541!3d24.90452730000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1626020059971!5m2!1sen!2sbd" width="100%" height={440} />
+                </div>
             </div>
 
         </div>

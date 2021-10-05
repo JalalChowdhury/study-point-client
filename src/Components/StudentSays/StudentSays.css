@@ -1,0 +1,24 @@
+.student-header{
+    text-align: center;
+    margin: 20px;
+}
+.student-div{
+    height: 200px;
+    width: 400px;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+.student-div:hover{
+    transform: scale(110%);
+}
+.student-img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+.salmon-color{
+    color: salmon;
+}

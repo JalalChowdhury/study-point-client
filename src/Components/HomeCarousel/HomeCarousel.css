@@ -1,16 +1,20 @@
 
 .carousel1-design{
-    background-color:#15c6be;
+    background-color:#e6e6e6;
     padding-top: 20px;
     padding-bottom: 20px;
   
 }
 .carousel2-design{
-    background-color:#f1f1f1;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #f1f1f1;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .carousel3-design{
-    background-color:#15c6be;
+    background-color:#e6e6e6;
    
 }
+.carousel-image{
+    max-height: 300px;
+}
+/* */

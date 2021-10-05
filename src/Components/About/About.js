@@ -1,7 +1,9 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import aboutImage from "../../Images/aboutImg.png";
+import StudentSays from '../StudentSays/StudentSays';
 import Team from '../Team/Team';
+import WhyThisBatch from '../WhyThisBatch/WhyThisBatch';
 import "./About.css";
 
 const About = () => {
@@ -31,6 +33,7 @@ const About = () => {
                     <img src={aboutImage} alt="" />
                 </div>
             </div>
+            <WhyThisBatch></WhyThisBatch>
             <div>
                 <h1 className="team-header">Our <span className="salmon-color">Teams</span> </h1>
                 <div className="row row-cols-1 row-cols-md-4 g-4 px-5">
@@ -48,6 +51,7 @@ const About = () => {
 
                 </div>
             </div>
+            <StudentSays></StudentSays>
         </div>
     );
 };

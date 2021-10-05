@@ -21,7 +21,7 @@ const HomeCarousel = () => {
                                 <p>Education is essential because it allows the overall holistic and wholesome development of individuals and makes them self-sufficient and skilful.</p>
                             </div>
                             <div className="col-md-5 d-flex justify-content-center align-items-center">
-                                <img src={carouselImg2} className="img-fluid" alt="..." />
+                                <img src={carouselImg2} className="img-fluid carousel-image" alt="..." />
                             </div>
                         </div>
                     </div>
@@ -32,20 +32,20 @@ const HomeCarousel = () => {
                                 <p>A good education is constructive in helping to develop the future of a person. Learning encourages confidence by providing knowledge of various different spheres of life. </p>
                             </div>
                             <div className="col-md-5 d-flex justify-content-center align-items-center">
-                                <img src={carouselImg1} className="img-fluid" alt="..." />
+                                <img src={carouselImg1} className="img-fluid carousel-image" alt="..." />
                             </div>
                         </div>
 
                     </div>
                     <div className="carousel-item ">
-                        <div className="row carousel3-design d-flex justify-content-center align-items-center py-1">
+                        <div className="row carousel3-design d-flex justify-content-center align-items-center py-5">
                             <div className="col-md-6">
-                                <h1>Acquire the most important skills of the present time by enrolling , training and career track programs of your choice.</h1>
+                                <h1>Acquire the most important skills of the present time by enrolling, training  track programs of your choice.</h1>
                                 <p>We too should get proper education by understanding its real value and get benefitted completely. Our aim of getting education should be to help 
                                     other needy people of the society to get them over the weaknesses and superstitions</p>
                             </div>
-                            <div className="col-md-5">
-                                <img src={carouselImg3} className="img-fluid" alt="..." />
+                            <div className="col-md-5 d-flex justify-content-center align-items-center">
+                                <img src={carouselImg3} className="img-fluid carousel-image" alt="..." />
                             </div>
                         </div>
                     </div>

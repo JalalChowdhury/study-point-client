@@ -18,12 +18,12 @@ const HomeServiceDetail = (props) => {
     
 
     return (
-        <div className="col">
-            <div className="card-design h-100">
+        <div className="col my-2 d-flex justify-content-center align-items-center">
+            <div className="card-design">
 
                
                 <div >
-                      <img className="card-img mx-auto" src={image} alt="" />
+                      <img className="card-image mx-auto" src={image} alt="" />
                 </div>
                 
                 <div className="card-body">
@@ -39,10 +39,7 @@ const HomeServiceDetail = (props) => {
                     />
                     <br/> 
                     <button onClick={handleClick} className="add-btn mt-2">Explore</button>
-                    {/* <h6>Duration : {length}</h6> */}
-                  
-                    {/* <h4 className="my-2"> ৳ {fee}</h4> */}
-                    {/* <button  onClick={ () => props.handleAddToCart(props.course)} className="add-btn"> Add to Cart</button> */}
+                    
 
         
                 </div>
